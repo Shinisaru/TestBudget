@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Avast. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@interface TransactionsViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@interface TransactionsViewController : UITableViewController
+@property (strong, nonatomic, readonly) NSFetchedResultsController *fetchedResultsController;
 
 @end

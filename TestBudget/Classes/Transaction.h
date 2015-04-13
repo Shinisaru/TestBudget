@@ -16,7 +16,8 @@
 @property (nonatomic, retain) NSString * kind;
 @property (nonatomic, retain) NSNumber * value;
 @property (nonatomic, retain) NSString * guid;
-@property (nonatomic, retain) NSNumber * deleted;
+@property (nonatomic, retain) NSNumber * is_deleted;
 @property (nonatomic, retain) NSNumber * isExpense;
+@property (nonatomic, retain) NSNumber * isRaw;
 
 @end

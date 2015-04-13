@@ -7,8 +7,15 @@
 //
 
 #import "DateSelectorViewController.h"
+#import "SHButton.h"
 
 @interface DateSelectorViewController ()
+
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+@property (weak, nonatomic) IBOutlet SHButton *btnOk;
+
+- (IBAction)datePickerChanged:(id)sender;
+- (IBAction)actDatePicked:(id)sender;
 
 @end
 
@@ -16,7 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = NSLocalizedString(@"Select date", @"");
+    self.btnOk.layer.shadowOffset = CGSizeMake(1, 1);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +43,14 @@
 }
 */
 
+- (IBAction)datePickerChanged:(id)sender {
+    self.date = self.datePicker.date;
+}
+
+- (IBAction)actDatePicked:(id)sender {
+    if (self.dateChangeBlock) {
+        self.dateChangeBlock(self.date);
+    }
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end

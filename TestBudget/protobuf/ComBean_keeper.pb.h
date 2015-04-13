@@ -6,10 +6,12 @@
 
 @class AccountDelta;
 @class AccountDeltaBuilder;
-@class Transaction;
+@class PBTransaction;
 @class TransactionBuilder;
 
+@protocol GeneratedMessageProtocol
 
+@end
 
 @interface ComBeanKeeperRoot : NSObject {
 }
@@ -22,18 +24,18 @@
 #define Transaction_value @"value"
 #define Transaction_kind @"kind"
 #define Transaction_deleted @"deleted"
-@interface Transaction : PBGeneratedMessage<GeneratedMessageProtocol> {
+@interface PBTransaction : PBGeneratedMessage<GeneratedMessageProtocol> {
 @private
-  BOOL hasDeleted_:1;
-  BOOL hasValue_:1;
-  BOOL hasDate_:1;
-  BOOL hasGuid_:1;
-  BOOL hasKind_:1;
-  BOOL deleted_:1;
-  Float64 value;
-  SInt64 date;
-  NSString* guid;
-  NSString* kind;
+    BOOL hasDeleted_:1;
+    BOOL hasValue_:1;
+    BOOL hasDate_:1;
+    BOOL hasGuid_:1;
+    BOOL hasKind_:1;
+    BOOL deleted_:1;
+    Float64 value;
+    SInt64 date;
+    NSString* guid;
+    NSString* kind;
 }
 - (BOOL) hasGuid;
 - (BOOL) hasDate;
@@ -53,31 +55,31 @@
 - (void) writeToCodedOutputStream:(PBCodedOutputStream*) output;
 - (TransactionBuilder*) builder;
 + (TransactionBuilder*) builder;
-+ (TransactionBuilder*) builderWithPrototype:(Transaction*) prototype;
++ (TransactionBuilder*) builderWithPrototype:(PBTransaction*) prototype;
 - (TransactionBuilder*) toBuilder;
 
-+ (Transaction*) parseFromData:(NSData*) data;
-+ (Transaction*) parseFromData:(NSData*) data extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
-+ (Transaction*) parseFromInputStream:(NSInputStream*) input;
-+ (Transaction*) parseFromInputStream:(NSInputStream*) input extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
-+ (Transaction*) parseFromCodedInputStream:(PBCodedInputStream*) input;
-+ (Transaction*) parseFromCodedInputStream:(PBCodedInputStream*) input extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
++ (PBTransaction*) parseFromData:(NSData*) data;
++ (PBTransaction*) parseFromData:(NSData*) data extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
++ (PBTransaction*) parseFromInputStream:(NSInputStream*) input;
++ (PBTransaction*) parseFromInputStream:(NSInputStream*) input extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
++ (PBTransaction*) parseFromCodedInputStream:(PBCodedInputStream*) input;
++ (PBTransaction*) parseFromCodedInputStream:(PBCodedInputStream*) input extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
 @end
 
 @interface TransactionBuilder : PBGeneratedMessageBuilder {
 @private
-  Transaction* resultTransaction;
+    PBTransaction* resultTransaction;
 }
 
-- (Transaction*) defaultInstance;
+- (PBTransaction*) defaultInstance;
 
 - (TransactionBuilder*) clear;
 - (TransactionBuilder*) clone;
 
-- (Transaction*) build;
-- (Transaction*) buildPartial;
+- (PBTransaction*) build;
+- (PBTransaction*) buildPartial;
 
-- (TransactionBuilder*) mergeFrom:(Transaction*) other;
+- (TransactionBuilder*) mergeFrom:(PBTransaction*) other;
 - (TransactionBuilder*) mergeFromCodedInputStream:(PBCodedInputStream*) input;
 - (TransactionBuilder*) mergeFromCodedInputStream:(PBCodedInputStream*) input extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
 
@@ -111,14 +113,14 @@
 #define AccountDelta_serverTimestamp @"serverTimestamp"
 @interface AccountDelta : PBGeneratedMessage<GeneratedMessageProtocol> {
 @private
-  BOOL hasServerTimestamp_:1;
-  SInt64 serverTimestamp;
-  NSMutableArray * addedOrModifiedArray;
+    BOOL hasServerTimestamp_:1;
+    SInt64 serverTimestamp;
+    NSMutableArray * addedOrModifiedArray;
 }
 - (BOOL) hasServerTimestamp;
 @property (readonly, strong) NSArray * addedOrModified;
 @property (readonly) SInt64 serverTimestamp;
-- (Transaction*)addedOrModifiedAtIndex:(NSUInteger)index;
+- (PBTransaction*)addedOrModifiedAtIndex:(NSUInteger)index;
 
 + (instancetype) defaultInstance;
 - (instancetype) defaultInstance;
@@ -140,7 +142,7 @@
 
 @interface AccountDeltaBuilder : PBGeneratedMessageBuilder {
 @private
-  AccountDelta* resultAccountDelta;
+    AccountDelta* resultAccountDelta;
 }
 
 - (AccountDelta*) defaultInstance;
@@ -156,8 +158,8 @@
 - (AccountDeltaBuilder*) mergeFromCodedInputStream:(PBCodedInputStream*) input extensionRegistry:(PBExtensionRegistry*) extensionRegistry;
 
 - (NSMutableArray *)addedOrModified;
-- (Transaction*)addedOrModifiedAtIndex:(NSUInteger)index;
-- (AccountDeltaBuilder *)addAddedOrModified:(Transaction*)value;
+- (PBTransaction*)addedOrModifiedAtIndex:(NSUInteger)index;
+- (AccountDeltaBuilder *)addAddedOrModified:(PBTransaction*)value;
 - (AccountDeltaBuilder *)setAddedOrModifiedArray:(NSArray *)array;
 - (AccountDeltaBuilder *)clearAddedOrModified;
 

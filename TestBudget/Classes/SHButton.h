@@ -10,4 +10,8 @@
 
 @interface SHButton : UIButton
 
+@property (nonatomic, retain) UIColor *defaultBackgroundColor;
+@property (nonatomic, retain) UIColor *hightlightBackgroundColor;
+@property (nonatomic, retain) UIColor *selectedBackgroundColor;
+
 @end

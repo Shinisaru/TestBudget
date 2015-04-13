@@ -15,7 +15,8 @@
 @dynamic kind;
 @dynamic value;
 @dynamic guid;
-@dynamic deleted;
+@dynamic is_deleted;
 @dynamic isExpense;
+@dynamic isRaw;
 
 @end

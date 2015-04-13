@@ -10,4 +10,8 @@
 
 @interface UIColor (Shorthands)
 
++ (UIColor *)r:(CGFloat)red g:(CGFloat)green b:(CGFloat)blue;
+
++ (UIColor *)TBlueColor;
+
 @end

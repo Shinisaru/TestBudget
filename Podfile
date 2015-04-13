@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'Reachability', '~> 3.2'
+pod 'libextobjc', '~> 0.4'
+pod 'MagicalRecord'
+pod 'ProtocolBuffers', '1.9.2'

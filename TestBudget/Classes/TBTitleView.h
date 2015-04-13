@@ -10,4 +10,6 @@
 
 @interface TBTitleView : UIView
 
+@property (weak, nonatomic) IBOutlet UILabel *lblBalance;
+
 @end

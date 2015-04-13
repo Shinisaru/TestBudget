@@ -10,4 +10,7 @@
 
 @interface TBAmountCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *plusMinusImageView;
+@property (weak, nonatomic) IBOutlet UITextField *lblAmount;
+
 @end

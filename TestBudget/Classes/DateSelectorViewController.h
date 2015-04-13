@@ -10,4 +10,8 @@
 
 @interface DateSelectorViewController : UIViewController
 
+@property (nonatomic, copy) NSDate *date;
+@property (nonatomic, copy) DateCallback dateChangeBlock;
+
+
 @end

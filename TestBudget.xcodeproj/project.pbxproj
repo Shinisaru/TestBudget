@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527CADC6EA9CD18D4740D888 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8600D3636A269878341C7B3B /* libPods.a */; };
+		6CF2432A1ADBCBFC0053C181 /* com.bean_keeper.proto in Resources */ = {isa = PBXBuildFile; fileRef = 6CF243281ADBCBFC0053C181 /* com.bean_keeper.proto */; };
+		6CF2432B1ADBCBFC0053C181 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF243291ADBCBFC0053C181 /* TemplateIcon2x.png */; };
+		6CF2432F1ADBCDB20053C181 /* DateSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2432E1ADBCDB20053C181 /* DateSelectorViewController.m */; };
+		6CF243331ADBE4C30053C181 /* ComBean_keeper.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF243321ADBE4C30053C181 /* ComBean_keeper.pb.m */; };
+		6CF243361ADBF62A0053C181 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF243351ADBF62A0053C181 /* Transaction.m */; };
+		6CF2433A1ADC24B40053C181 /* TBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF243391ADC24B40053C181 /* TBCell.m */; };
 		F58364151AD547AF002E7B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364141AD547AF002E7B6E /* main.m */; };
 		F58364181AD547AF002E7B6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364171AD547AF002E7B6E /* AppDelegate.m */; };
 		F583641B1AD547AF002E7B6E /* TestBudget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F58364191AD547AF002E7B6E /* TestBudget.xcdatamodeld */; };
-		F583641E1AD547AF002E7B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F583641D1AD547AF002E7B6E /* ViewController.m */; };
 		F58364211AD547AF002E7B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F583641F1AD547AF002E7B6E /* Main.storyboard */; };
 		F58364231AD547B0002E7B6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58364221AD547AF002E7B6E /* Images.xcassets */; };
 		F58364261AD547B0002E7B6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58364241AD547B0002E7B6E /* LaunchScreen.xib */; };
 		F58364321AD547B0002E7B6E /* TestBudgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364311AD547B0002E7B6E /* TestBudgetTests.m */; };
+		F58364421AD5491D002E7B6E /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364411AD5491D002E7B6E /* TransactionsViewController.m */; };
+		F58364491AD54B6E002E7B6E /* UIColor+Shorthands.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364481AD54B6E002E7B6E /* UIColor+Shorthands.m */; };
+		F58364531AD55DB8002E7B6E /* TBTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364521AD55DB8002E7B6E /* TBTitleView.m */; };
+		F58364561AD55EE4002E7B6E /* TBTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58364541AD55EE4002E7B6E /* TBTitleView.xib */; };
+		F583645A1AD56F2B002E7B6E /* TransactionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364591AD56F2B002E7B6E /* TransactionDetailViewController.m */; };
+		F583645F1AD56F81002E7B6E /* TransactionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F583645E1AD56F81002E7B6E /* TransactionFormViewController.m */; };
+		F58364631AD6A243002E7B6E /* SHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364621AD6A243002E7B6E /* SHButton.m */; };
+		F58364681AD6ABD4002E7B6E /* TBAmountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F58364671AD6ABD4002E7B6E /* TBAmountCell.m */; };
+		F583646C1AD6AC03002E7B6E /* TBTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F583646B1AD6AC03002E7B6E /* TBTextCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +43,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011D41E16C83A8B5FA438E4F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6CF243281ADBCBFC0053C181 /* com.bean_keeper.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = com.bean_keeper.proto; sourceTree = "<group>"; };
+		6CF243291ADBCBFC0053C181 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		6CF2432D1ADBCDB20053C181 /* DateSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateSelectorViewController.h; path = Classes/DateSelectorViewController.h; sourceTree = "<group>"; };
+		6CF2432E1ADBCDB20053C181 /* DateSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateSelectorViewController.m; path = Classes/DateSelectorViewController.m; sourceTree = "<group>"; };
+		6CF243311ADBE4C30053C181 /* ComBean_keeper.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBean_keeper.pb.h; sourceTree = "<group>"; };
+		6CF243321ADBE4C30053C181 /* ComBean_keeper.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComBean_keeper.pb.m; sourceTree = "<group>"; };
+		6CF243341ADBF62A0053C181 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = Classes/Transaction.h; sourceTree = "<group>"; };
+		6CF243351ADBF62A0053C181 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = Classes/Transaction.m; sourceTree = "<group>"; };
+		6CF243381ADC24B40053C181 /* TBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCell.h; path = Classes/TBCell.h; sourceTree = "<group>"; };
+		6CF243391ADC24B40053C181 /* TBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBCell.m; path = Classes/TBCell.m; sourceTree = "<group>"; };
+		8600D3636A269878341C7B3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7874D7B47098C28CF515189 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F583640F1AD547AF002E7B6E /* TestBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58364131AD547AF002E7B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58364141AD547AF002E7B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58364161AD547AF002E7B6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F58364171AD547AF002E7B6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F583641A1AD547AF002E7B6E /* TestBudget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestBudget.xcdatamodel; sourceTree = "<group>"; };
-		F583641C1AD547AF002E7B6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F583641D1AD547AF002E7B6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F58364201AD547AF002E7B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58364221AD547AF002E7B6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F58364251AD547B0002E7B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F583642B1AD547B0002E7B6E /* TestBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58364301AD547B0002E7B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58364311AD547B0002E7B6E /* TestBudgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBudgetTests.m; sourceTree = "<group>"; };
+		F58364401AD5491D002E7B6E /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionsViewController.h; path = Classes/TransactionsViewController.h; sourceTree = "<group>"; };
+		F58364411AD5491D002E7B6E /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionsViewController.m; path = Classes/TransactionsViewController.m; sourceTree = "<group>"; };
+		F58364471AD54B6E002E7B6E /* UIColor+Shorthands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Shorthands.h"; path = "Classes/UIColor+Shorthands.h"; sourceTree = "<group>"; };
+		F58364481AD54B6E002E7B6E /* UIColor+Shorthands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Shorthands.m"; path = "Classes/UIColor+Shorthands.m"; sourceTree = "<group>"; };
+		F583644A1AD54D15002E7B6E /* TestBudget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestBudget-Prefix.pch"; sourceTree = "<group>"; };
+		F58364511AD55DB8002E7B6E /* TBTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTitleView.h; path = Classes/TBTitleView.h; sourceTree = "<group>"; };
+		F58364521AD55DB8002E7B6E /* TBTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTitleView.m; path = Classes/TBTitleView.m; sourceTree = "<group>"; };
+		F58364551AD55EE4002E7B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TBTitleView.xib; sourceTree = "<group>"; };
+		F58364581AD56F2B002E7B6E /* TransactionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionDetailViewController.h; path = Classes/TransactionDetailViewController.h; sourceTree = "<group>"; };
+		F58364591AD56F2B002E7B6E /* TransactionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionDetailViewController.m; path = Classes/TransactionDetailViewController.m; sourceTree = "<group>"; };
+		F583645D1AD56F81002E7B6E /* TransactionFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionFormViewController.h; path = Classes/TransactionFormViewController.h; sourceTree = "<group>"; };
+		F583645E1AD56F81002E7B6E /* TransactionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionFormViewController.m; path = Classes/TransactionFormViewController.m; sourceTree = "<group>"; };
+		F58364601AD59535002E7B6E /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F58364611AD6A243002E7B6E /* SHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHButton.h; path = Classes/SHButton.h; sourceTree = "<group>"; };
+		F58364621AD6A243002E7B6E /* SHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHButton.m; path = Classes/SHButton.m; sourceTree = "<group>"; };
+		F58364661AD6ABD4002E7B6E /* TBAmountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBAmountCell.h; path = Classes/TBAmountCell.h; sourceTree = "<group>"; };
+		F58364671AD6ABD4002E7B6E /* TBAmountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBAmountCell.m; path = Classes/TBAmountCell.m; sourceTree = "<group>"; };
+		F583646A1AD6AC03002E7B6E /* TBTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTextCell.h; path = Classes/TBTextCell.h; sourceTree = "<group>"; };
+		F583646B1AD6AC03002E7B6E /* TBTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTextCell.m; path = Classes/TBTextCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527CADC6EA9CD18D4740D888 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +108,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A334CA7AE09C88E4B32673F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7874D7B47098C28CF515189 /* Pods.debug.xcconfig */,
+				011D41E16C83A8B5FA438E4F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CF2432C1ADBCD920053C181 /* DateSelector */ = {
+			isa = PBXGroup;
+			children = (
+				6CF2432D1ADBCDB20053C181 /* DateSelectorViewController.h */,
+				6CF2432E1ADBCDB20053C181 /* DateSelectorViewController.m */,
+			);
+			name = DateSelector;
+			sourceTree = "<group>";
+		};
+		6CF243301ADBE4C30053C181 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				6CF243311ADBE4C30053C181 /* ComBean_keeper.pb.h */,
+				6CF243321ADBE4C30053C181 /* ComBean_keeper.pb.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		6CF243371ADC249B0053C181 /* TBCell */ = {
+			isa = PBXGroup;
+			children = (
+				6CF243381ADC24B40053C181 /* TBCell.h */,
+				6CF243391ADC24B40053C181 /* TBCell.m */,
+			);
+			name = TBCell;
+			sourceTree = "<group>";
+		};
+		951E2342E2C975B275BDE4BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8600D3636A269878341C7B3B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F58364061AD547AF002E7B6E = {
 			isa = PBXGroup;
 			children = (
 				F58364111AD547AF002E7B6E /* TestBudget */,
 				F583642E1AD547B0002E7B6E /* TestBudgetTests */,
 				F58364101AD547AF002E7B6E /* Products */,
+				4A334CA7AE09C88E4B32673F /* Pods */,
+				951E2342E2C975B275BDE4BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +175,10 @@
 		F58364111AD547AF002E7B6E /* TestBudget */ = {
 			isa = PBXGroup;
 			children = (
-				F58364161AD547AF002E7B6E /* AppDelegate.h */,
-				F58364171AD547AF002E7B6E /* AppDelegate.m */,
-				F583641C1AD547AF002E7B6E /* ViewController.h */,
-				F583641D1AD547AF002E7B6E /* ViewController.m */,
-				F583641F1AD547AF002E7B6E /* Main.storyboard */,
-				F58364221AD547AF002E7B6E /* Images.xcassets */,
-				F58364241AD547B0002E7B6E /* LaunchScreen.xib */,
-				F58364191AD547AF002E7B6E /* TestBudget.xcdatamodeld */,
+				6CF243301ADBE4C30053C181 /* protobuf */,
+				F583643D1AD548CF002E7B6E /* Resources */,
+				F583643C1AD548B4002E7B6E /* Data */,
+				F583643B1AD54873002E7B6E /* Classes */,
 				F58364121AD547AF002E7B6E /* Supporting Files */,
 			);
 			path = TestBudget;
@@ -99,8 +187,14 @@
 		F58364121AD547AF002E7B6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F58364161AD547AF002E7B6E /* AppDelegate.h */,
+				F58364171AD547AF002E7B6E /* AppDelegate.m */,
 				F58364131AD547AF002E7B6E /* Info.plist */,
 				F58364141AD547AF002E7B6E /* main.m */,
+				F583644A1AD54D15002E7B6E /* TestBudget-Prefix.pch */,
+				F58364601AD59535002E7B6E /* Utils.h */,
+				6CF243281ADBCBFC0053C181 /* com.bean_keeper.proto */,
+				6CF243291ADBCBFC0053C181 /* TemplateIcon2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +216,140 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F583643B1AD54873002E7B6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F58364501AD55D80002E7B6E /* Controls */,
+				F58364461AD54B3A002E7B6E /* Extensions */,
+				F583643F1AD548F8002E7B6E /* Cells */,
+				F583643E1AD548F1002E7B6E /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F583643C1AD548B4002E7B6E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F58364191AD547AF002E7B6E /* TestBudget.xcdatamodeld */,
+				6CF243341ADBF62A0053C181 /* Transaction.h */,
+				6CF243351ADBF62A0053C181 /* Transaction.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		F583643D1AD548CF002E7B6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F58364221AD547AF002E7B6E /* Images.xcassets */,
+				F583641F1AD547AF002E7B6E /* Main.storyboard */,
+				F58364241AD547B0002E7B6E /* LaunchScreen.xib */,
+				F58364541AD55EE4002E7B6E /* TBTitleView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F583643E1AD548F1002E7B6E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CF2432C1ADBCD920053C181 /* DateSelector */,
+				F583645C1AD56F43002E7B6E /* TransactionFormViewController */,
+				F58364571AD56F06002E7B6E /* TransactionsViewController */,
+				F583645B1AD56F33002E7B6E /* TransactionDetailViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F583643F1AD548F8002E7B6E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6CF243371ADC249B0053C181 /* TBCell */,
+				F58364691AD6ABDB002E7B6E /* TBAmountCell */,
+				F583646D1AD6AC0F002E7B6E /* TBTextCell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F58364461AD54B3A002E7B6E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F58364471AD54B6E002E7B6E /* UIColor+Shorthands.h */,
+				F58364481AD54B6E002E7B6E /* UIColor+Shorthands.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F58364501AD55D80002E7B6E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F58364641AD6ABA8002E7B6E /* TBTitleView */,
+				F58364651AD6ABB0002E7B6E /* SHButton */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		F58364571AD56F06002E7B6E /* TransactionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F58364401AD5491D002E7B6E /* TransactionsViewController.h */,
+				F58364411AD5491D002E7B6E /* TransactionsViewController.m */,
+			);
+			name = TransactionsViewController;
+			sourceTree = "<group>";
+		};
+		F583645B1AD56F33002E7B6E /* TransactionDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F58364581AD56F2B002E7B6E /* TransactionDetailViewController.h */,
+				F58364591AD56F2B002E7B6E /* TransactionDetailViewController.m */,
+			);
+			name = TransactionDetailViewController;
+			sourceTree = "<group>";
+		};
+		F583645C1AD56F43002E7B6E /* TransactionFormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F583645D1AD56F81002E7B6E /* TransactionFormViewController.h */,
+				F583645E1AD56F81002E7B6E /* TransactionFormViewController.m */,
+			);
+			name = TransactionFormViewController;
+			sourceTree = "<group>";
+		};
+		F58364641AD6ABA8002E7B6E /* TBTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				F58364511AD55DB8002E7B6E /* TBTitleView.h */,
+				F58364521AD55DB8002E7B6E /* TBTitleView.m */,
+			);
+			name = TBTitleView;
+			sourceTree = "<group>";
+		};
+		F58364651AD6ABB0002E7B6E /* SHButton */ = {
+			isa = PBXGroup;
+			children = (
+				F58364611AD6A243002E7B6E /* SHButton.h */,
+				F58364621AD6A243002E7B6E /* SHButton.m */,
+			);
+			name = SHButton;
+			sourceTree = "<group>";
+		};
+		F58364691AD6ABDB002E7B6E /* TBAmountCell */ = {
+			isa = PBXGroup;
+			children = (
+				F58364661AD6ABD4002E7B6E /* TBAmountCell.h */,
+				F58364671AD6ABD4002E7B6E /* TBAmountCell.m */,
+			);
+			name = TBAmountCell;
+			sourceTree = "<group>";
+		};
+		F583646D1AD6AC0F002E7B6E /* TBTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				F583646A1AD6AC03002E7B6E /* TBTextCell.h */,
+				F583646B1AD6AC03002E7B6E /* TBTextCell.m */,
+			);
+			name = TBTextCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F58364351AD547B0002E7B6E /* Build configuration list for PBXNativeTarget "TestBudget" */;
 			buildPhases = (
+				466D03DAC3492ED8C4DFEA53 /* Check Pods Manifest.lock */,
 				F583640B1AD547AF002E7B6E /* Sources */,
 				F583640C1AD547AF002E7B6E /* Frameworks */,
 				F583640D1AD547AF002E7B6E /* Resources */,
+				622B135A500A6DB28CED3F12 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +432,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF2432A1ADBCBFC0053C181 /* com.bean_keeper.proto in Resources */,
 				F58364211AD547AF002E7B6E /* Main.storyboard in Resources */,
+				6CF2432B1ADBCBFC0053C181 /* TemplateIcon2x.png in Resources */,
 				F58364261AD547B0002E7B6E /* LaunchScreen.xib in Resources */,
 				F58364231AD547B0002E7B6E /* Images.xcassets in Resources */,
+				F58364561AD55EE4002E7B6E /* TBTitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +450,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		466D03DAC3492ED8C4DFEA53 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		622B135A500A6DB28CED3F12 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F583640B1AD547AF002E7B6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF243361ADBF62A0053C181 /* Transaction.m in Sources */,
+				F58364631AD6A243002E7B6E /* SHButton.m in Sources */,
 				F58364181AD547AF002E7B6E /* AppDelegate.m in Sources */,
 				F58364151AD547AF002E7B6E /* main.m in Sources */,
-				F583641E1AD547AF002E7B6E /* ViewController.m in Sources */,
+				F58364531AD55DB8002E7B6E /* TBTitleView.m in Sources */,
 				F583641B1AD547AF002E7B6E /* TestBudget.xcdatamodeld in Sources */,
+				F583645A1AD56F2B002E7B6E /* TransactionDetailViewController.m in Sources */,
+				F58364491AD54B6E002E7B6E /* UIColor+Shorthands.m in Sources */,
+				6CF2433A1ADC24B40053C181 /* TBCell.m in Sources */,
+				6CF243331ADBE4C30053C181 /* ComBean_keeper.pb.m in Sources */,
+				F583645F1AD56F81002E7B6E /* TransactionFormViewController.m in Sources */,
+				6CF2432F1ADBCDB20053C181 /* DateSelectorViewController.m in Sources */,
+				F58364421AD5491D002E7B6E /* TransactionsViewController.m in Sources */,
+				F583646C1AD6AC03002E7B6E /* TBTextCell.m in Sources */,
+				F58364681AD6ABD4002E7B6E /* TBAmountCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +539,14 @@
 				F58364251AD547B0002E7B6E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F58364541AD55EE4002E7B6E /* TBTitleView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58364551AD55EE4002E7B6E /* Base */,
+			);
+			name = TBTitleView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,21 +636,31 @@
 		};
 		F58364361AD547B0002E7B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7874D7B47098C28CF515189 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestBudget/TestBudget-Prefix.pch";
 				INFOPLIST_FILE = TestBudget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F58364371AD547B0002E7B6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011D41E16C83A8B5FA438E4F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestBudget/TestBudget-Prefix.pch";
 				INFOPLIST_FILE = TestBudget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -382,6 +677,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TestBudgetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestBudget.app/TestBudget";
@@ -397,6 +693,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TestBudgetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestBudget.app/TestBudget";
@@ -422,6 +719,7 @@
 				F58364371AD547B0002E7B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F58364381AD547B0002E7B6E /* Build configuration list for PBXNativeTarget "TestBudgetTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +728,7 @@
 				F583643A1AD547B0002E7B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
