@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddTransactionViewController.h
 //  TestBudget
 //
 //  Created by vlad on 08/04/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AddTransactionViewController : UITableViewController
 
 @end
-
