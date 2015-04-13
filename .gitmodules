@@ -1,0 +1,3 @@
+[submodule "protobuf-objc"]
+	path = protobuf-objc
+	url = git@github.com:Shinisaru/protobuf-objc.git
